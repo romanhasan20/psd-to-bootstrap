@@ -1,0 +1,357 @@
+/*
+Author: Mehedi hasan Roman
+Email: mehedihasanroman324@gmail.com
+website: romanhasan.com
+*/
+
+
+/* 
+=== Index ===
+
+1. header
+2. Fusce at          
+3. Facilisis          
+4. Ante donec          
+5. Blandit rhoncus          
+6. Placerat
+7. Footer
+
+
+/* Global css */
+
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	font-size: 16px;
+	font-family: "Roboto Slab", serif;
+	font-weight: 300;
+	line-height: 150%;
+
+}
+.no-padding{
+	padding: 0;
+}
+
+.btn1{
+	padding: 15px 65px;
+	background: #ffffff;
+	color: #612316;
+	display: inline-block;
+	border-radius: 25px;
+	font-size: 16px;
+	font-weight: 400;
+}
+.btn1:hover{
+	text-decoration: none;
+	color: #612316;
+	font-weight: 400px;
+}
+
+h1 {
+}
+
+h2 {
+  font-size: 50px;
+  margin-bottom: 30px;
+  font-weight: 300;
+}
+
+h3 {
+  font-size: 25px;
+  font-weight: 700;
+}
+
+h4 {
+  font-size: 23px;
+  margin-bottom: 125px;
+  font-weight: 700;
+}
+
+/* Theme Css */
+
+header {
+  padding: 15px 0;
+  background: #edeff1;
+}
+
+.nav-link {
+  color: #31353e;
+  margin-right: 10px;
+  font-weight: 400;
+}
+
+.nav-link.js-scroll-trigger.active {
+  background: #dd4b2b;
+  color: #edeff1;
+  padding: 10px 30px;
+  border-radius: 25px;
+}
+
+.fa-bars {
+  color: #31353e;
+}
+
+/* hero part  */
+
+.hero {
+  padding: 500px 0 135px;
+  text-align: center;
+  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+    url(../img/b.png) no-repeat;
+  background-size: cover;
+  color: #ffffff;
+}
+
+.hero img {
+  margin-bottom: 25px;
+}
+
+.hero h3 {
+  margin-bottom: 25px;
+}
+
+.mb {
+  margin-bottom: 40px;
+}
+
+/* news part  */
+
+.news {
+  text-align: center;
+  background-color: #edeff1;
+  padding: 90px 0;
+}
+
+.news h3 {
+  margin-bottom: 80px;
+}
+
+.news img {
+  width: 90%;
+  margin-bottom: 40px;
+}
+
+.news h4 {
+  margin-bottom: 25px;
+}
+
+.news p {
+  margin-bottom: 35px;
+}
+
+.news .btn1 {
+  color: #4e5159;
+}
+
+/* newslatter part */
+
+.newslatter {
+  text-align: center;
+  padding: 90px 0;
+  background: url(../img/b2.png) no-repeat;
+  background-size: cover;
+  color: #ffffff;
+}
+
+.newslatter h3 {
+  margin-bottom: 25px;
+}
+
+.newslatter p {
+  margin-bottom: 45px;
+}
+
+form {
+  position: relative;
+}
+.form-control {
+  border-radius: 25px;
+  padding: 25px 35px;
+  padding-right: 60px;
+  background-color: transparent;
+  outline: 0;
+}
+
+.form-control:focus {
+  background-color: transparent;
+  outline: 0;
+}
+
+::placeholder {
+  color: #ffffff !important;
+}
+
+.btn2 {
+  padding: 14px 65px;
+  background: #ffffff;
+  color: #612316;
+  display: inline-block;
+  border-radius: 25px;
+  font-size: 16px;
+  position: absolute;
+  top: 0;
+  right: 0;
+  outline: 0;
+  border: none;
+  font-weight: 400;
+}
+
+/* product part */
+
+.product {
+  padding: 90px 0;
+}
+
+.product img {
+  width: 100%;
+}
+
+.product h3 {
+  color: #191b29;
+  margin: 40px 0;
+}
+
+.product p {
+  margin-bottom: 30px;
+}
+
+.red {
+  background-color: #dd4b2b;
+  color: #ffffff;
+}
+
+.red:hover {
+  color: #ffffff;
+}
+
+.blue {
+  background-color: #4b4e73;
+  color: #ffffff;
+}
+
+.blue:hover {
+  color: #ffffff;
+}
+
+/* link part */
+
+.link {
+  padding: 90px 0;
+  background-color: #d75d0e;
+  text-align: center;
+}
+
+.menue {
+  list-style: none;
+}
+
+.menue li {
+  margin-bottom: 10px;
+  list-style: none;
+}
+
+.menue li a {
+  color: #ffffff;
+  font-weight: 400;
+}
+
+.menue li a:hover {
+  text-decoration: none;
+}
+
+/* footer part */
+
+footer {
+  padding: 90px 0;
+  background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+    url(../img/b2.png);
+  background-size: cover;
+  text-align: center;
+  color: #ffffff;
+}
+
+
+
+
+
+@media (max-width: 575.98px) {
+  .hero {
+    padding: 200px 0 135px;
+  }
+
+  h2 {
+    font-size: 35px;
+  }
+
+  h4 {
+    margin-bottom: 80px;
+  }
+
+  .product h3 {
+    margin-top: 0px;
+  }
+
+  .news,
+  .subscribe,
+  .product,
+  footer {
+    padding: 50px 0;
+  }
+}
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+  .hero {
+    padding: 200px 0 135px;
+  }
+
+  h2 {
+    font-size: 35px;
+  }
+
+  h4 {
+    margin-bottom: 80px;
+  }
+
+  .product h3 {
+    margin-top: 0px;
+  }
+
+  .news,
+  .subscribe,
+  .product,
+  .link,
+  footer {
+    padding: 50px 0;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+  .hero {
+    padding: 200px 0 135px;
+  }
+
+  h2 {
+    font-size: 35px;
+  }
+
+  h4 {
+    margin-bottom: 80px;
+  }
+
+  .btn2 {
+    padding: 14px 50px;
+  }
+
+  .product h3 {
+    margin-top: 0px;
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1199.98px) {
+}
+
+@media (min-width: 1200px) {
+}
